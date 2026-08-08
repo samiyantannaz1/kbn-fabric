@@ -11,7 +11,7 @@ import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
 <StrictMode>
-  <BrowserRouter>
+  <BrowserRouter  basename="/kbn-fabric">
     <LanguageProvider>
     <OffcanvasProvider>
         <App />
