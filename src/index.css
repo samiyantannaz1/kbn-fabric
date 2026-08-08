@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter/Inter_18pt-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter/Inter_18pt-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("./assets/fonts/Vazirmatn/Vazirmatn-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("./assets/fonts/Vazirmatn/Vazirmatn-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("./assets/fonts/Vazirmatn/Vazirmatn-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+
+:root {
+
+  /* Brand Colors */
+ 
+  --primary: #1F1F1F;     /* ذغالی */
+  --gold: #B08A4A;        /* طلایی مات برای تاکید */
+  --cream: #F5F1EA;       /* کرم گرم */
+  --white: #FFFFFF;
+  --gray: #777777;
+  --border: #E6E1DA;
+
+  /* Fonts */
+  --font-fa: "Vazirmatn", sans-serif;
+  --font-en: "Inter", sans-serif;
+
+
+  /* Radius */
+  --radius-button: 12px;
+  --radius-card: 20px;
+  --radius-image: 24px;
+
+
+  /* Shadow */
+  --shadow-card: 0 10px 40px rgba(0,0,0,.08);
+
+
+  /* Container */
+  --container-width: 1280px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: var(--font-fa);
+  color: var(--primary);
+  background: var(--white);
+}
+
+
+.en {
+  font-family: var(--font-en);
+}
+
+.font-en {
+  font-family: var(--font-en);
+}
+
+.font-fa {
+  font-family: var(--font-fa);
+}
