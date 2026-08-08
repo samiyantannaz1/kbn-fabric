@@ -163,7 +163,21 @@ npm run preview
 
 ## 📸 Screenshots
 
-Screenshots of the website will be added here after the final UI and responsive design are completed.
+### Home Page
+
+![K.B.N Home Page](./src/assets/images/readme/home.png)
+
+### Collections Page
+
+![K.B.N Collections Page](./src/assets/images/readme/collection.png)
+
+### About Page
+
+![K.B.N About Page](./src/assets/images/readme/about.png)
+
+### Mobile Responsive
+
+![K.B.N Mobile](./src/assets/images/readme/contact.png)
 
 ---
 
