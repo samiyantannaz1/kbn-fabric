@@ -104,7 +104,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
               `,children:e===`en`?`FA`:`EN`}),(0,k.jsx)(`div`,{className:`\r
     hidden\r
     md:block\r
-  `,children:(0,k.jsx)(Z.div,{animate:{x:[0,-4,4,-3,3,0],scale:[1,1.02,1.02,1.01,1]},transition:{duration:.8,repeat:1/0,repeatDelay:2.5,ease:`easeInOut`},children:(0,k.jsx)(im,{message:e===`fa`?`سلام، درخواست دریافت کاتالوگ پارچه‌های K.B.N را دارم.`:`Hello, I would like to request the K.B.N fabric catalog.`,label:r.navbar.catalog,className:`!bg-[#C08A5B] hover:!bg-[#A97449]`})})}),(0,k.jsx)(`button`,{onClick:n,className:`\r
+  `,children:(0,k.jsx)(Z.div,{animate:{x:[0,-4,4,-3,3,0],scale:[1,1.02,1.02,1.01,1]},transition:{duration:.8,repeat:1/0,repeatDelay:2.5,ease:`easeInOut`},children:(0,k.jsx)(im,{message:e===`fa`?`سلام، درخواست دریافت کاتالوگ پارچه‌های K.B.N را دارم.`:`Hello, I would like to request the K.B.N fabric catalog.`,label:r.navbar.catalog,className:`bg-[#C08A5B]! hover:bg-[#A97449]!`})})}),(0,k.jsx)(`button`,{onClick:n,className:`\r
                 flex\r
                 text-2xl\r
                 text-gray-700\r
@@ -166,7 +166,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
           right-0
           z-50
           flex
-          h-[100dvh]
+         h-dvh
           w-72
           flex-col
           overflow-hidden
@@ -332,7 +332,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     duration-300\r
     hover:gap-3\r
     hover:text-[#A97449]\r
-  `,children:[e===`en`?`View Collection`:`مشاهده کالکشن`,(0,k.jsx)(`span`,{children:e===`en`?`→`:`←`})]})]})]},r.id))})]})})}var vm=`/kbn-fabric/assets/hero6-BcqNOMFJ.jpg`,ym={hidden:{},visible:{transition:{staggerChildren:.18}}},bm={hidden:{opacity:0,y:24},visible:{opacity:1,y:0,transition:{duration:.7,ease:`easeOut`}}},xm={hidden:{opacity:0,y:30,scale:.97},visible:{opacity:1,y:0,scale:1,transition:{duration:.9,delay:.25,ease:`easeOut`}}};function Sm(){let{language:e}=Q(),t=e===`fa`?$:om,n=e===`fa`?`font-fa`:`font-en`,r=e===`fa`;return(0,k.jsx)(`section`,{className:`\r
+  `,children:[e===`en`?`View Collection`:`مشاهده کالکشن`,(0,k.jsx)(`span`,{children:e===`en`?`→`:`←`})]})]})]},r.id))})]})})}var vm=`/kbn-fabric/assets/hero6-BcqNOMFJ.jpg`,ym={hidden:{},visible:{transition:{staggerChildren:.18}}},bm={hidden:{opacity:0,y:24},visible:{opacity:1,y:0,transition:{duration:.7,ease:`easeOut`}}},xm={hidden:{opacity:0,y:30,scale:.97},visible:{opacity:1,y:0,scale:1,transition:{duration:.9,delay:.25,ease:`easeOut`}}};function Sm(){let{language:e}=Q(),[t,n]=(0,w.useState)(!1),r=e===`fa`?$:om,i=e===`fa`?`font-fa`:`font-en`,a=e===`fa`,o=`09122711834`,s=`tel:${o}`;return(0,k.jsx)(`section`,{className:`\r
         relative\r
         overflow-hidden\r
         bg-[#F5F1EA]\r
@@ -340,23 +340,23 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
         sm:py-20\r
         md:py-24\r
         lg:py-28\r
-      `,children:(0,k.jsx)(nm,{children:(0,k.jsxs)(`div`,{dir:r?`rtl`:`ltr`,className:`\r
-    grid\r
-    w-full\r
-    min-w-0\r
-    items-center\r
-    gap-12\r
-    lg:grid-cols-2\r
-    lg:gap-16\r
-    xl:gap-20\r
-  `,children:[(0,k.jsxs)(Z.div,{variants:ym,initial:`hidden`,animate:`visible`,className:`
-  ${n}
-  w-full
-  min-w-0
-  max-w-full
-  overflow-hidden
-  lg:max-w-2xl
-`,children:[(0,k.jsxs)(Z.div,{variants:bm,className:`\r
+      `,children:(0,k.jsx)(nm,{children:(0,k.jsxs)(`div`,{dir:a?`rtl`:`ltr`,className:`\r
+            grid\r
+            w-full\r
+            min-w-0\r
+            items-center\r
+            gap-12\r
+            lg:grid-cols-2\r
+            lg:gap-16\r
+            xl:gap-20\r
+          `,children:[(0,k.jsxs)(Z.div,{variants:ym,initial:`hidden`,animate:`visible`,className:`
+              ${i}
+              w-full
+              min-w-0
+              max-w-full
+              overflow-hidden
+              lg:max-w-2xl
+            `,children:[(0,k.jsxs)(Z.div,{variants:bm,className:`\r
                 mb-5\r
                 flex\r
                 items-center\r
@@ -367,15 +367,15 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                   bg-[#C08A5B]\r
                   sm:w-14\r
                 `}),(0,k.jsx)(`p`,{className:`
-                  ${n}
+                  ${i}
                   m-0
                   text-sm
                   font-medium
                   text-[#C08A5B]
                   sm:text-base
-                  ${r?`tracking-normal`:`uppercase tracking-[3px]`}
-                `,children:t.hero.subtitle})]}),(0,k.jsxs)(Z.h1,{variants:bm,className:`
-                ${n}
+                  ${a?`tracking-normal`:`uppercase tracking-[3px]`}
+                `,children:r.hero.subtitle})]}),(0,k.jsxs)(Z.h1,{variants:bm,className:`
+                ${i}
                 m-0
                 max-w-2xl
                 text-4xl
@@ -385,9 +385,9 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                 sm:text-5xl
                 md:text-6xl
                 lg:text-[4.2rem]
-                lg:leading-[1.25]
-              `,children:[t.hero.title.line1,(0,k.jsx)(`br`,{}),(0,k.jsx)(`span`,{className:`text-[#C08A5B]`,children:t.hero.title.line2})]}),(0,k.jsx)(Z.p,{variants:bm,className:`
-                ${n}
+                lg:leading-tight
+              `,children:[r.hero.title.line1,(0,k.jsx)(`br`,{}),(0,k.jsx)(`span`,{className:`text-[#C08A5B]`,children:r.hero.title.line2})]}),(0,k.jsx)(Z.p,{variants:bm,className:`
+                ${i}
                 mt-6
                 max-w-xl
                 text-base
@@ -396,7 +396,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                 sm:mt-7
                 sm:text-lg
                 sm:leading-9
-              `,children:t.hero.description}),(0,k.jsxs)(Z.div,{variants:bm,className:`\r
+              `,children:r.hero.description}),(0,k.jsxs)(Z.div,{variants:bm,className:`\r
                 mt-8\r
                 flex\r
                 flex-wrap\r
@@ -423,35 +423,82 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                   hover:shadow-xl\r
                   sm:px-8\r
                   sm:text-base\r
-                `,children:[(0,k.jsx)(`span`,{children:t.hero.explore}),(0,k.jsx)(`span`,{className:`
-                    ${r?`mr-3`:`ml-3`}
+                `,children:[(0,k.jsx)(`span`,{children:r.hero.explore}),(0,k.jsx)(`span`,{className:`
+                    ${a?`mr-3`:`ml-3`}
                     transition-transform
                     duration-300
-                    group-hover:translate-x-1
-                    ${r?`group-hover:-translate-x-1`:``}
-                  `,children:r?`←`:`→`})]}),(0,k.jsx)(Un,{to:`/contact`,className:`\r
-                  inline-flex\r
-                  min-h-13\r
-                  items-center\r
-                  justify-center\r
-                  rounded-xl\r
-                  border\r
-                  border-[#C08A5B]\r
-                  bg-transparent\r
-                  px-7\r
-                  py-3.5\r
-                  text-sm\r
-                  font-semibold\r
-                  text-[#C08A5B]\r
-                  transition-all\r
-                  duration-300\r
-                  hover:-translate-y-1\r
-                  hover:bg-[#C08A5B]\r
-                  hover:text-white\r
-                  hover:shadow-lg\r
-                  sm:px-8\r
-                  sm:text-base\r
-                `,children:t.hero.contact})]}),(0,k.jsxs)(Z.div,{variants:bm,className:`\r
+                    ${a?`group-hover:-translate-x-1`:`group-hover:translate-x-1`}
+                  `,children:a?`←`:`→`})]}),(0,k.jsxs)(`div`,{className:`relative`,children:[(0,k.jsx)(`a`,{href:s,className:`\r
+                    inline-flex\r
+                    min-h-13\r
+                    items-center\r
+                    justify-center\r
+                    rounded-xl\r
+                    border\r
+                    border-[#C08A5B]\r
+                    bg-transparent\r
+                    px-7\r
+                    py-3.5\r
+                    text-sm\r
+                    font-semibold\r
+                    text-[#C08A5B]\r
+                    transition-all\r
+                    duration-300\r
+                    hover:-translate-y-1\r
+                    hover:bg-[#C08A5B]\r
+                    hover:text-white\r
+                    hover:shadow-lg\r
+                    sm:px-8\r
+                    sm:text-base\r
+                    md:hidden\r
+                  `,children:r.hero.contact}),(0,k.jsx)(`button`,{type:`button`,onClick:()=>n(e=>!e),className:`\r
+                    hidden\r
+                    min-h-13\r
+                    items-center\r
+                    justify-center\r
+                    rounded-xl\r
+                    border\r
+                    border-[#C08A5B]\r
+                    bg-transparent\r
+                    px-7\r
+                    py-3.5\r
+                    text-sm\r
+                    font-semibold\r
+                    text-[#C08A5B]\r
+                    transition-all\r
+                    duration-300\r
+                    hover:-translate-y-1\r
+                    hover:bg-[#C08A5B]\r
+                    hover:text-white\r
+                    hover:shadow-lg\r
+                    sm:px-8\r
+                    sm:text-base\r
+                    md:inline-flex\r
+                  `,children:r.hero.contact}),t&&(0,k.jsx)(Z.div,{initial:{opacity:0,y:8},animate:{opacity:1,y:0},transition:{duration:.2},className:`\r
+                      absolute\r
+                      left-1/2\r
+                      top-full\r
+                      z-20\r
+                      mt-3\r
+                      w-max\r
+                      -translate-x-1/2\r
+                      rounded-xl\r
+                      border\r
+                      border-[#C08A5B]/20\r
+                      bg-white\r
+                      px-5\r
+                      py-3\r
+                      text-center\r
+                      shadow-xl\r
+                    `,children:(0,k.jsx)(`a`,{href:s,dir:`ltr`,className:`\r
+                        block\r
+                        text-base\r
+                        font-semibold\r
+                        tracking-wide\r
+                        text-[#C08A5B]\r
+                        transition-colors\r
+                        hover:text-[#A97449]\r
+                      `,children:o})})]})]}),(0,k.jsxs)(Z.div,{variants:bm,className:`\r
                 mt-10\r
                 flex\r
                 items-center\r
@@ -504,15 +551,15 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                   pointer-events-none\r
                   absolute\r
                   inset-0\r
-                  bg-gradient-to-t\r
+                  bg-linear-to-t\r
                   from-black/20\r
                   via-transparent\r
                   to-transparent\r
                 `})]}),(0,k.jsxs)(Z.div,{initial:{opacity:0,y:15},animate:{opacity:1,y:0},transition:{duration:.7,delay:.9},className:`
-                ${n}
+                ${i}
                 absolute
                 bottom-5
-                ${r?`left-5`:`right-5`}
+                ${a?`left-5`:`right-5`}
                 rounded-2xl
                 border
                 border-white/30
@@ -747,7 +794,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
         `}),(0,k.jsx)(`div`,{className:`\r
           absolute\r
           inset-0\r
-          bg-gradient-to-b\r
+          bg-linear-to-b\r
           from-black/60\r
           via-black/40\r
           to-black/70\r
@@ -763,7 +810,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
         `,children:[(0,k.jsx)(`div`,{className:`\r
             mx-auto\r
             mb-8\r
-            h-[2px]\r
+            h-0.5\r
             w-20\r
             bg-[#C08A5B]\r
           `}),(0,k.jsx)(`h1`,{className:`\r
@@ -1046,25 +1093,37 @@ lg:text-lg\r
           items-center
           justify-center
           ${t===`fa`?`font-fa`:`font-en`}
-        `,children:(0,k.jsx)(`p`,{className:`text-xl text-neutral-600`,children:t===`fa`?`کالکشن پیدا نشد`:`Collection not found`})});let i=n.collectionDetails[r.key],a=t===`fa`?`${i.title} | K.B.N`:`${i.title} | K.B.N Upholstery Fabrics`,o=i.description,s=t===`fa`?`سلام، درباره کالکشن ${i.title} اطلاعات بیشتری می‌خواهم.`:`Hello, I would like more information about the ${i.title} collection.`;return(0,k.jsxs)(k.Fragment,{children:[(0,k.jsx)(Em,{title:a,description:o}),(0,k.jsx)(nm,{children:(0,k.jsxs)(`div`,{className:`\r
+        `,children:t===`fa`?`کالکشن پیدا نشد`:`Collection not found`});let i=n.collectionDetails[r.key],a=t===`fa`?`${i.title} | K.B.N`:`${i.title} | K.B.N Upholstery Fabrics`,o=i.description,s=t===`fa`?`سلام، درباره کالکشن ${i.title} اطلاعات بیشتری می‌خواهم.`:`Hello, I would like more information about the ${i.title} collection.`;return(0,k.jsxs)(k.Fragment,{children:[(0,k.jsx)(Em,{title:a,description:o}),(0,k.jsx)(nm,{children:(0,k.jsxs)(`div`,{className:`\r
             mx-auto\r
             px-4\r
-            py-16\r
+            py-2\r
+            sm:py-12\r
+            md:py-16\r
           `,children:[(0,k.jsxs)(`div`,{className:`\r
               grid\r
-              items-center\r
-              gap-10\r
+              items-start\r
+              gap-1\r
+              sm:gap-6\r
               md:grid-cols-2\r
-            `,children:[(0,k.jsx)(Km,{image:r.image,alt:i.title}),(0,k.jsxs)(`div`,{className:t===`fa`?`text-right`:`text-left`,children:[(0,k.jsx)(`h1`,{className:`\r
-                  text-4xl\r
+              md:items-center\r
+              md:gap-10\r
+            `,children:[(0,k.jsx)(`div`,{className:`w-full`,children:(0,k.jsx)(Km,{image:r.image,alt:i.title})}),(0,k.jsxs)(`div`,{className:`
+                w-full
+                ${t===`fa`?`text-right`:`text-left`}
+              `,children:[(0,k.jsx)(`h1`,{className:`\r
+                  text-3xl\r
                   font-bold\r
                   text-neutral-900\r
+                  sm:text-4xl\r
                 `,children:i.title}),(0,k.jsx)(`p`,{className:`\r
-                  mt-6\r
-                  text-lg\r
+                  mt-4\r
+                  text-base\r
                   leading-8\r
                   text-neutral-600\r
-                `,children:i.description}),(0,k.jsx)(`div`,{className:`mt-8`,children:(0,k.jsx)(im,{label:n.fabric.requestCatalog,message:s})})]})]}),(0,k.jsx)(qm,{}),(0,k.jsx)(Jm,{})]})})]})}var Xm=`/kbn-fabric/assets/notFound-Lz7OxTHd.jpg`;function Zm(){let{language:e}=Q(),t=e===`fa`?$:om,n=e===`fa`?`font-fa`:`font-en`;return(0,k.jsxs)(`section`,{className:`\r
+                  sm:mt-6\r
+                  sm:text-lg\r
+                  sm:leading-8\r
+                `,children:i.description}),(0,k.jsx)(`div`,{className:`mt-6 sm:mt-8`,children:(0,k.jsx)(im,{label:n.fabric.requestCatalog,message:s})})]})]}),(0,k.jsx)(qm,{}),(0,k.jsx)(Jm,{})]})})]})}var Xm=`/kbn-fabric/assets/notFound-Lz7OxTHd.jpg`;function Zm(){let{language:e}=Q(),t=e===`fa`?$:om,n=e===`fa`?`font-fa`:`font-en`;return(0,k.jsxs)(`section`,{className:`\r
         relative\r
         flex\r
         min-h-screen\r
@@ -1090,7 +1149,7 @@ lg:text-lg\r
           `,children:[(0,k.jsx)(`div`,{className:`\r
               mx-auto\r
               mb-8\r
-              h-[2px]\r
+              h-0.5\r
               w-20\r
               bg-[#C08A5B]\r
             `}),(0,k.jsx)(`h1`,{className:`\r
