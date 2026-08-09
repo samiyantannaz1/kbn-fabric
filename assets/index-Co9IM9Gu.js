@@ -56,20 +56,19 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
         duration-300
         hover:bg-[#A97449]
         ${n}
-      `,children:t})}function Q(){let e=(0,w.useContext)(kr);if(!e)throw Error(`useLanguage must be used inside LanguageProvider`);return e}function am(){let e=(0,w.useContext)(jr);if(!e)throw Error(`useOffcanvas must be used inside OffcanvasProvider`);return e}var om={navbar:{home:`Home`,collections:`Collections`,about:`About`,contact:`Contact`,catalog:`Request Catalog`},hero:{subtitle:`Luxury Modern Fabrics`,title:{line1:`Premium Fabrics`,line2:`For Modern Interiors`},description:`Discover elegant upholstery fabrics designed for contemporary spaces and luxury furniture.`,explore:`Explore Collection`,contact:`Contact Us`},collections:{subtitle:`Our Collections`,title:`Featured Collections`,description:`Discover premium upholstery fabrics designed for modern luxury interiors.`,items:{boucle:{title:`Bouclé Collection`,description:`Soft texture for modern interiors.`},velvet:{title:`Velvet Collection`,description:`Elegant comfort with timeless luxury.`},woven:{title:`Woven Collection`,description:`Durable fabrics crafted for everyday beauty.`}}},whyChooseUs:{subtitle:`Why Choose Us`,title:`Quality You Can Trust`,description:`We provide premium fabrics with modern designs and reliable service for your interior projects.`,items:{quality:{title:`Premium Quality`,description:`High quality materials with excellent craftsmanship and attention to detail.`},design:{title:`Modern Designs`,description:`Elegant and contemporary designs created for luxury interiors.`},delivery:{title:`Nationwide Delivery`,description:`Fast and reliable delivery of products across Iran.`},trust:{title:`Trusted Partnership`,description:`Building long-term relationships based on trust and commitment.`}}},aboutPreview:{subtitle:`About K.B.N`,title:`Premium Fabrics For Modern Living`,description:`K.B.N provides high-quality upholstery fabrics with elegant designs and carefully selected materials for modern interior spaces.`,button:`Learn More`},contactBanner:{subtitle:`Get In Touch`,title:`Need Help Choosing the Right Fabric?`,description:`Our team is ready to help you find the perfect upholstery fabric for your project. Contact us today and let's create beautiful spaces together.`,button:`Contact Us`},footer:{description:`Premium upholstery fabrics designed for modern interiors with quality, elegance and lasting comfort.`,quickLinks:`Quick Links`,contact:`Contact`,links:{home:`Home`,collections:`Collections`,about:`About`,contact:`Contact`},address:`Yafteh Abad Furniture Market, Shandiz Street, `,addressDetail:`Majid Mohammadi Alley, No. 6, Tehran, Iran`,copyright:`© 2026 K.B.N. All rights reserved.`},collectionsPage:{subtitle:`Our Collections`,title:`Explore Premium Fabric Collections`,description:`Discover our carefully selected upholstery fabrics designed for modern living spaces.`},filter:{all:`All`,boucle:`Bouclé`,velvet:`Velvet`,woven:`Woven`},collectionDetails:{boucle:{title:`Bouclé Collection`,description:`A soft and elegant fabric designed for modern luxury interiors.`},velvet:{title:`Velvet Collection`,description:`A timeless velvet fabric combining comfort and sophistication.`},woven:{title:`Woven Collection`,description:`Durable woven fabrics crafted for stylish living spaces.`}},fabricSpecifications:{title:`Fabric Specifications`,items:{material:{label:`Material`,value:`Premium Polyester Blend`},width:{label:`Width`,value:`140 cm`},usage:{label:`Usage`,value:`Sofa & Furniture`},care:{label:`Care`,value:`Dry Clean Recommended`}}},availableColors:{title:`Available Colors`,items:{beige:`Beige`,black:`Black`,gray:`Gray`,brown:`Brown`,cream:`Cream`}},fabric:{requestCatalog:`Request Catalog`,whatsappMessage:`Hello, I am interested in K.B.N fabric collection. Please send me the catalog.`},about:{hero:{title:`About K.B.N`,description:`K.B.N presents refined upholstery fabric collections designed to bring elegance, comfort, and quality to interior spaces.`},story:{title:`Our Story`,description:`We create upholstery fabric collections that combine refined design, quality, and timeless style. Our goal is to provide elegant fabric solutions that inspire furniture makers and interior designers.`},values:{title:`Why Choose K.B.N`,items:{quality:{title:`Quality Collections`,description:`Carefully selected fabric collections with attention to texture, appearance, and lasting beauty.`},design:{title:`Elegant Designs`,description:`Modern and refined designs created to complement different interior styles.`},support:{title:`Direct Support`,description:`Connect with our team to receive catalogs, information, and guidance about our collections.`}}},contact:{title:`Interested in our collections?`,description:`Contact us to receive more information and request our catalog.`}},contactPage:{hero:{subtitle:`Contact Us`,title:`Let's Work Together`,description:`Contact K.B.N for wholesale upholstery fabrics and catalog requests.`},info:{title:`Contact Information`,items:{address:{label:`Address`,value:`Tehran, Iran`},phone:{label:`Phone`,value:`02166144067`},whatsapp:{label:`WhatsApp`,value:`09122711834`},email:{label:`Email`,value:`info@kbnfabric.com`}}},commitment:{subtitle:`OUR PROMISE`,title:`Our Commitment`,description:`We are committed to providing premium upholstery fabrics, honest consultation before purchase, and reliable support whenever you need us.`,items:{quality:`Premium Fabric Quality`,consultation:`Honest Pre-Purchase Consultation`,support:`Reliable Customer Support`},footer:`We are more than a fabric supplier—we are your trusted partner in creating beautiful living and commercial spaces.`},cta:{title:`Request Our Fabric Catalog`,description:`Get our latest upholstery fabric collection through WhatsApp.`,button:`Request Catalog`}},scrollToTop:{label:`Scroll to top`},notFound:{title:`Page Not Found`,description:`Sorry, the page you are looking for does not exist or has been moved.`,button:`Back to Home`},seo:{home:{title:`K.B.N | Premium Upholstery Fabrics`,description:`K.B.N offers high-quality upholstery fabrics for modern interior spaces, focusing on beauty, durability, and comfort.`},collections:{title:`Upholstery Fabric Collections | K.B.N`,description:`Explore K.B.N's collection of premium upholstery fabrics in a variety of textures, colors, and styles.`},about:{title:`About K.B.N | Upholstery Fabrics`,description:`Learn more about K.B.N and our commitment to providing high-quality upholstery fabrics for modern interior spaces.`},contact:{title:`Contact K.B.N | Upholstery Fabrics`,description:`Contact K.B.N for wholesale upholstery fabrics, catalog requests, and professional consultation.`},notFound:{title:`Page Not Found | K.B.N`,description:`The page you are looking for could not be found. Return to the K.B.N homepage.`}},fabricGallery:{view:`View`}},$={navbar:{home:`خانه`,collections:`مجموعه‌ها`,about:`درباره ما`,contact:`تماس با ما`,catalog:`درخواست کاتالوگ`},hero:{subtitle:`پارچه‌های مبلی مدرن`,title:{line1:`پارچه‌های ممتاز`,line2:`برای دکوراسیون مدرن و کلاسیک`},description:`مجموعه‌ای از پارچه‌های مبلی باکیفیت که برای فضاهای مدرن کلاسیک و مبلمان لوکس طراحی شده‌اند.`,explore:`مشاهده محصولات`,contact:`تماس با ما`},collections:{subtitle:`کالکشن‌های ما`,title:`کالکشن‌های منتخب`,description:`مجموعه‌ای از پارچه‌های مبلی مدرن، لوکس و باکیفیت برای انواع فضاهای داخلی.`,items:{boucle:{title:`کالکشن بوکله`,description:`بافتی نرم و مناسب دکوراسیون مدرن.`},velvet:{title:`کالکشن مخمل`,description:`ترکیبی از لطافت، زیبایی و کیفیت.`},woven:{title:`کالکشن بافت‌دار`,description:`پارچه‌هایی مقاوم برای استفاده روزمره.`}}},whyChooseUs:{subtitle:`چرا ما`,title:`کیفیتی که می‌توانید به آن اعتماد کنید`,description:`ارائه پارچه‌های ممتاز با طراحی مدرن و خدمات مطمئن برای پروژه‌های دکوراسیون داخلی.`,items:{quality:{title:`کیفیت ممتاز`,description:`استفاده از متریال باکیفیت و تولید با دقت بالا.`},design:{title:`طراحی مدرن`,description:`طراحی‌های زیبا و مدرن برای فضاهای لوکس داخلی.`},delivery:{title:`ارسال سراسر ایران`,description:`ارسال سریع و مطمئن محصولات به تمام نقاط ایران.`},trust:{title:`همکاری مطمئن`,description:`ایجاد روابط بلندمدت بر پایه اعتماد و تعهد.`}}},aboutPreview:{subtitle:`درباره K.B.N`,title:`پارچه‌های ممتاز برای زندگی مدرن`,description:`K.B.N با ارائه پارچه‌های مبلی باکیفیت، طراحی‌های زیبا و انتخاب دقیق متریال، راهکارهایی مناسب برای فضاهای داخلی مدرن ارائه می‌دهد.`,button:`بیشتر بدانید`},contactBanner:{subtitle:`ارتباط با ما`,title:`برای انتخاب پارچه مناسب به راهنمایی نیاز دارید؟`,description:`تیم K.B.N آماده است تا در انتخاب بهترین پارچه مبلی متناسب با نیاز شما راهنمایی‌تان کند. برای دریافت مشاوره با ما در ارتباط باشید.`,button:`تماس با ما`},footer:{description:`ارائه پارچه‌های مبلی باکیفیت برای فضاهای مدرن با تمرکز بر زیبایی، دوام و راحتی.`,quickLinks:`دسترسی سریع`,contact:`ارتباط با ما`,links:{home:`خانه`,collections:`کالکشن‌ها`,about:`درباره ما`,contact:`تماس با ما`},address:`بازار مبل یافت‌آباد، خیابان شاندیز `,addressDetail:`کوچه مجید محمدی، پلاک ۶    `,copyright:`© ۲۰۲۶ تمامی حقوق برای K.B.N محفوظ است.`},collectionsPage:{subtitle:`کالکشن‌های ما`,title:`مجموعه پارچه‌های مبلی`,description:`با مجموعه‌ای از پارچه‌های مبلی باکیفیت، مناسب دکوراسیون‌های مدرن و کلاسیک آشنا شوید.`},filter:{all:`همه`,boucle:`بوکله`,velvet:`مخمل`,woven:`بافت`},collectionDetails:{boucle:{title:`کالکشن بوکله`,description:`پارچه‌ای نرم و لوکس مناسب برای دکوراسیون‌های مدرن.`},velvet:{title:`کالکشن مخمل`,description:`ترکیبی از راحتی، زیبایی و حس لوکس برای فضای داخلی.`},woven:{title:`کالکشن بافت`,description:`پارچه‌های مقاوم و زیبا برای فضاهای مدرن.`}},fabricSpecifications:{title:`مشخصات پارچه`,items:{material:{label:`جنس`,value:`ترکیب پلی‌استر ممتاز`},width:{label:`عرض پارچه`,value:`۱۴۰ سانتی‌متر`},usage:{label:`کاربرد`,value:`مبلمان و دکوراسیون داخلی`},care:{label:`نگهداری`,value:`خشکشویی توصیه می‌شود`}}},availableColors:{title:`رنگ‌های موجود`,items:{beige:`بژ`,black:`مشکی`,gray:`طوسی`,brown:`قهوه‌ای`,cream:`کرم`}},fabric:{requestCatalog:`درخواست کاتالوگ`,whatsappMessage:`سلام به کالکشن پارچه های شما علاقمندم.لطفا کانالوگ و اطلاعات بیشتر را برای من ارسال کنید`},about:{hero:{title:`درباره K.B.N`,description:`K.B.N مجموعه‌ای از پارچه‌های مبلی ظریف و باکیفیت را ارائه می‌دهد که با هدف ایجاد زیبایی، راحتی و ظرافت در فضاهای داخلی طراحی شده‌اند.`},story:{title:`داستان ما`,description:`ما مجموعه‌هایی از پارچه‌های مبلی را ارائه می‌کنیم که ترکیبی از طراحی ظریف، کیفیت و سبک ماندگار هستند. هدف ما ایجاد راهکارهای پارچه‌ای زیبا برای تولیدکنندگان مبلمان و طراحان داخلی است.`},values:{title:`چرا K.B.N را انتخاب کنید`,items:{quality:{title:`مجموعه‌های باکیفیت`,description:`انتخاب دقیق مجموعه‌های پارچه با تمرکز بر بافت، ظاهر زیبا و ماندگاری بالا.`},design:{title:`طراحی‌های ظریف`,description:`طراحی‌های مدرن و زیبا که با سبک‌های مختلف دکوراسیون داخلی هماهنگ می‌شوند.`},support:{title:`پشتیبانی مستقیم`,description:`ارتباط مستقیم با تیم ما برای دریافت کاتالوگ، اطلاعات و راهنمایی درباره مجموعه‌ها.`}}},contact:{title:`به مجموعه‌های ما علاقه‌مندید؟`,description:`برای دریافت اطلاعات بیشتر و درخواست کاتالوگ با ما در ارتباط باشید.`}},contactPage:{hero:{subtitle:`تماس با ما`,title:`بیایید با هم همکاری کنیم`,description:`برای دریافت کاتالوگ، مشاوره و خرید عمده پارچه‌های مبلی با K.B.N در ارتباط باشید.`},info:{title:`اطلاعات تماس`,items:{address:{label:`آدرس`,value:`تهران، ایران`},phone:{label:`تلفن`,value:`02166144067`},whatsapp:{label:`واتساپ`,value:`09122711834`},email:{label:`ایمیل`,value:`info@kbnfabric.com`}}},commitment:{title:`تعهد ما`,description:`تیم K.B.N همواره تلاش می‌کند تجربه‌ای مطمئن، حرفه‌ای و رضایت‌بخش را برای مشتریان خود فراهم کند.`,items:{quality:`تضمین کیفیت پارچه‌ها`,consultation:`مشاوره صادقانه پیش از خرید`,support:`پشتیبانی واقعی، همیشه در دسترس`},footer:`ما فقط یک فروشگاه نیستیم؛ شریک انتخاب‌های هوشمندانه شما برای زیباتر شدن خانه‌ها و فضاهای کاری‌تان هستیم.`},cta:{subtitle:`تعهد ما`,title:`دریافت کاتالوگ پارچه‌ها`,description:`جدیدترین کالکشن پارچه‌های مبلی را از طریق واتساپ دریافت کنید.`,button:`دریافت کاتالوگ`}},scrollToTop:{label:`بازگشت به بالا`},notFound:{title:`صفحه پیدا نشد`,description:`متأسفانه صفحه‌ای که به دنبال آن هستید وجود ندارد یا منتقل شده است.`,button:`بازگشت به خانه`},seo:{home:{title:`K.B.N | پارچه مبلی باکیفیت`,description:`K.B.N ارائه‌دهنده پارچه‌های مبلی باکیفیت برای فضاهای مدرن با تمرکز بر زیبایی، دوام و راحتی.`},collections:{title:`مجموعه پارچه‌های مبلی | K.B.N`,description:`مجموعه پارچه‌های مبلی K.B.N را در طرح‌ها، رنگ‌ها و بافت‌های متنوع مشاهده کنید.`},about:{title:`درباره K.B.N | پارچه مبلی`,description:`با K.B.N و تعهد ما به ارائه پارچه‌های مبلی باکیفیت برای فضاهای مدرن بیشتر آشنا شوید.`},contact:{title:`تماس با K.B.N | پارچه مبلی`,description:`برای خرید عمده پارچه‌های مبلی، دریافت کاتالوگ و مشاوره با K.B.N در ارتباط باشید.`},notFound:{title:`صفحه پیدا نشد | K.B.N`,description:`صفحه مورد نظر شما پیدا نشد. برای ادامه به صفحه اصلی K.B.N بازگردید.`}},fabricGallery:{view:`مشاهده`}};function sm(){let{language:e,toggleLanguage:t}=Q(),{toggleMenu:n}=am(),r=e===`fa`?$:om,i=[{name:r.navbar.home,path:`/`},{name:r.navbar.collections,path:`/collections`},{name:r.navbar.about,path:`/about`},{name:r.navbar.contact,path:`/contact`}];return(0,k.jsx)(`nav`,{className:`\r
-        w-full\r
-        border-b\r
-        border-gray-200\r
-        bg-white\r
-      `,children:(0,k.jsx)(nm,{children:(0,k.jsxs)(`div`,{className:`\r
-            flex\r
-            h-20\r
-            items-center\r
-            justify-between\r
-          `,children:[(0,k.jsxs)(Un,{to:`/`,className:`\r
-              flex\r
-              flex-col\r
-              font-en\r
+      `,children:t})}function Q(){let e=(0,w.useContext)(kr);if(!e)throw Error(`useLanguage must be used inside LanguageProvider`);return e}function am(){let e=(0,w.useContext)(jr);if(!e)throw Error(`useOffcanvas must be used inside OffcanvasProvider`);return e}var om={navbar:{home:`Home`,collections:`Collections`,about:`About`,contact:`Contact`,catalog:`Request Catalog`},hero:{subtitle:`Luxury Modern Fabrics`,title:{line1:`Premium Fabrics`,line2:`For Modern Interiors`},description:`Discover elegant upholstery fabrics designed for contemporary spaces and luxury furniture.`,explore:`Explore Collection`,contact:`Contact Us`},collections:{subtitle:`Our Collections`,title:`Featured Collections`,description:`Discover premium upholstery fabrics designed for modern luxury interiors.`,items:{boucle:{title:`Bouclé Collection`,description:`Soft texture for modern interiors.`},velvet:{title:`Velvet Collection`,description:`Elegant comfort with timeless luxury.`},woven:{title:`Woven Collection`,description:`Durable fabrics crafted for everyday beauty.`}}},whyChooseUs:{subtitle:`Why Choose Us`,title:`Quality You Can Trust`,description:`We provide premium fabrics with modern designs and reliable service for your interior projects.`,items:{quality:{title:`Premium Quality`,description:`High quality materials with excellent craftsmanship and attention to detail.`},design:{title:`Modern Designs`,description:`Elegant and contemporary designs created for luxury interiors.`},delivery:{title:`Nationwide Delivery`,description:`Fast and reliable delivery of products across Iran.`},trust:{title:`Trusted Partnership`,description:`Building long-term relationships based on trust and commitment.`}}},aboutPreview:{subtitle:`About K.B.N`,title:`Premium Fabrics For Modern Living`,description:`K.B.N provides high-quality upholstery fabrics with elegant designs and carefully selected materials for modern interior spaces.`,button:`Learn More`},contactBanner:{subtitle:`Get In Touch`,title:`Need Help Choosing the Right Fabric?`,description:`Our team is ready to help you find the perfect upholstery fabric for your project. Contact us today and let's create beautiful spaces together.`,button:`Contact Us`},footer:{description:`Premium upholstery fabrics designed for modern interiors with quality, elegance and lasting comfort.`,quickLinks:`Quick Links`,contact:`Contact`,links:{home:`Home`,collections:`Collections`,about:`About`,contact:`Contact`},address:`Yafteh Abad Furniture Market, Shandiz Street, `,addressDetail:`Majid Mohammadi Alley, No. 6, Tehran, Iran`,copyright:`© 2026 K.B.N. All rights reserved.`},collectionsPage:{subtitle:`Our Collections`,title:`Explore Premium Fabric Collections`,description:`Discover our carefully selected upholstery fabrics designed for modern living spaces.`},filter:{all:`All`,boucle:`Bouclé`,velvet:`Velvet`,woven:`Woven`},collectionDetails:{boucle:{title:`Bouclé Collection`,description:`A soft and elegant fabric designed for modern luxury interiors.`},velvet:{title:`Velvet Collection`,description:`A timeless velvet fabric combining comfort and sophistication.`},woven:{title:`Woven Collection`,description:`Durable woven fabrics crafted for stylish living spaces.`}},fabricSpecifications:{title:`Fabric Specifications`,items:{material:{label:`Material`,value:`Premium Polyester Blend`},width:{label:`Width`,value:`140 cm`},usage:{label:`Usage`,value:`Sofa & Furniture`},care:{label:`Care`,value:`Dry Clean Recommended`}}},availableColors:{title:`Available Colors`,items:{beige:`Beige`,black:`Black`,gray:`Gray`,brown:`Brown`,cream:`Cream`}},fabric:{requestCatalog:`Request Catalog`,whatsappMessage:`Hello, I am interested in K.B.N fabric collection. Please send me the catalog.`},about:{hero:{title:`About K.B.N`,description:`K.B.N presents refined upholstery fabric collections designed to bring elegance, comfort, and quality to interior spaces.`},story:{title:`Our Story`,description:`We create upholstery fabric collections that combine refined design, quality, and timeless style. Our goal is to provide elegant fabric solutions that inspire furniture makers and interior designers.`},values:{title:`Why Choose K.B.N`,items:{quality:{title:`Quality Collections`,description:`Carefully selected fabric collections with attention to texture, appearance, and lasting beauty.`},design:{title:`Elegant Designs`,description:`Modern and refined designs created to complement different interior styles.`},support:{title:`Direct Support`,description:`Connect with our team to receive catalogs, information, and guidance about our collections.`}}},contact:{title:`Interested in our collections?`,description:`Contact us to receive more information and request our catalog.`}},contactPage:{hero:{subtitle:`Contact Us`,title:`Let's Work Together`,description:`Contact K.B.N for wholesale upholstery fabrics and catalog requests.`},info:{title:`Contact Information`,items:{address:{label:`Address`,value:`Tehran, Iran`},phone:{label:`Phone`,value:`02166144067`},whatsapp:{label:`WhatsApp`,value:`09122711834`},email:{label:`Email`,value:`info@kbnfabric.com`}}},commitment:{subtitle:`OUR PROMISE`,title:`Our Commitment`,description:`We are committed to providing premium upholstery fabrics, honest consultation before purchase, and reliable support whenever you need us.`,items:{quality:`Premium Fabric Quality`,consultation:`Honest Pre-Purchase Consultation`,support:`Reliable Customer Support`},footer:`We are more than a fabric supplier—we are your trusted partner in creating beautiful living and commercial spaces.`},cta:{title:`Request Our Fabric Catalog`,description:`Get our latest upholstery fabric collection through WhatsApp.`,button:`Request Catalog`}},scrollToTop:{label:`Scroll to top`},notFound:{title:`Page Not Found`,description:`Sorry, the page you are looking for does not exist or has been moved.`,button:`Back to Home`},seo:{home:{title:`K.B.N | Premium Upholstery Fabrics`,description:`K.B.N offers high-quality upholstery fabrics for modern interior spaces, focusing on beauty, durability, and comfort.`},collections:{title:`Upholstery Fabric Collections | K.B.N`,description:`Explore K.B.N's collection of premium upholstery fabrics in a variety of textures, colors, and styles.`},about:{title:`About K.B.N | Upholstery Fabrics`,description:`Learn more about K.B.N and our commitment to providing high-quality upholstery fabrics for modern interior spaces.`},contact:{title:`Contact K.B.N | Upholstery Fabrics`,description:`Contact K.B.N for wholesale upholstery fabrics, catalog requests, and professional consultation.`},notFound:{title:`Page Not Found | K.B.N`,description:`The page you are looking for could not be found. Return to the K.B.N homepage.`}},fabricGallery:{view:`View`}},$={navbar:{home:`خانه`,collections:`مجموعه‌ها`,about:`درباره ما`,contact:`تماس با ما`,catalog:`درخواست کاتالوگ`},hero:{subtitle:`پارچه‌های مبلی مدرن`,title:{line1:`پارچه‌های ممتاز`,line2:`برای دکوراسیون مدرن و کلاسیک`},description:`مجموعه‌ای از پارچه‌های مبلی باکیفیت که برای فضاهای مدرن کلاسیک و مبلمان لوکس طراحی شده‌اند.`,explore:`مشاهده محصولات`,contact:`تماس با ما`},collections:{subtitle:`کالکشن‌های ما`,title:`کالکشن‌های منتخب`,description:`مجموعه‌ای از پارچه‌های مبلی مدرن، لوکس و باکیفیت برای انواع فضاهای داخلی.`,items:{boucle:{title:`کالکشن بوکله`,description:`بافتی نرم و مناسب دکوراسیون مدرن.`},velvet:{title:`کالکشن مخمل`,description:`ترکیبی از لطافت، زیبایی و کیفیت.`},woven:{title:`کالکشن بافت‌دار`,description:`پارچه‌هایی مقاوم برای استفاده روزمره.`}}},whyChooseUs:{subtitle:`چرا ما`,title:`کیفیتی که می‌توانید به آن اعتماد کنید`,description:`ارائه پارچه‌های ممتاز با طراحی مدرن و خدمات مطمئن برای پروژه‌های دکوراسیون داخلی.`,items:{quality:{title:`کیفیت ممتاز`,description:`استفاده از متریال باکیفیت و تولید با دقت بالا.`},design:{title:`طراحی مدرن`,description:`طراحی‌های زیبا و مدرن برای فضاهای لوکس داخلی.`},delivery:{title:`ارسال سراسر ایران`,description:`ارسال سریع و مطمئن محصولات به تمام نقاط ایران.`},trust:{title:`همکاری مطمئن`,description:`ایجاد روابط بلندمدت بر پایه اعتماد و تعهد.`}}},aboutPreview:{subtitle:`درباره K.B.N`,title:`پارچه‌های ممتاز برای زندگی مدرن`,description:`K.B.N با ارائه پارچه‌های مبلی باکیفیت، طراحی‌های زیبا و انتخاب دقیق متریال، راهکارهایی مناسب برای فضاهای داخلی مدرن ارائه می‌دهد.`,button:`بیشتر بدانید`},contactBanner:{subtitle:`ارتباط با ما`,title:`برای انتخاب پارچه مناسب به راهنمایی نیاز دارید؟`,description:`تیم K.B.N آماده است تا در انتخاب بهترین پارچه مبلی متناسب با نیاز شما راهنمایی‌تان کند. برای دریافت مشاوره با ما در ارتباط باشید.`,button:`تماس با ما`},footer:{description:`ارائه پارچه‌های مبلی باکیفیت برای فضاهای مدرن با تمرکز بر زیبایی، دوام و راحتی.`,quickLinks:`دسترسی سریع`,contact:`ارتباط با ما`,links:{home:`خانه`,collections:`کالکشن‌ها`,about:`درباره ما`,contact:`تماس با ما`},address:`بازار مبل یافت‌آباد، خیابان شاندیز `,addressDetail:`کوچه مجید محمدی، پلاک ۶    `,copyright:`© ۲۰۲۶ تمامی حقوق برای K.B.N محفوظ است.`},collectionsPage:{subtitle:`کالکشن‌های ما`,title:`مجموعه پارچه‌های مبلی`,description:`با مجموعه‌ای از پارچه‌های مبلی باکیفیت، مناسب دکوراسیون‌های مدرن و کلاسیک آشنا شوید.`},filter:{all:`همه`,boucle:`بوکله`,velvet:`مخمل`,woven:`بافت`},collectionDetails:{boucle:{title:`کالکشن بوکله`,description:`پارچه‌ای نرم و لوکس مناسب برای دکوراسیون‌های مدرن.`},velvet:{title:`کالکشن مخمل`,description:`ترکیبی از راحتی، زیبایی و حس لوکس برای فضای داخلی.`},woven:{title:`کالکشن بافت`,description:`پارچه‌های مقاوم و زیبا برای فضاهای مدرن.`}},fabricSpecifications:{title:`مشخصات پارچه`,items:{material:{label:`جنس`,value:`ترکیب پلی‌استر ممتاز`},width:{label:`عرض پارچه`,value:`۱۴۰ سانتی‌متر`},usage:{label:`کاربرد`,value:`مبلمان و دکوراسیون داخلی`},care:{label:`نگهداری`,value:`خشکشویی توصیه می‌شود`}}},availableColors:{title:`رنگ‌های موجود`,items:{beige:`بژ`,black:`مشکی`,gray:`طوسی`,brown:`قهوه‌ای`,cream:`کرم`}},fabric:{requestCatalog:`درخواست کاتالوگ`,whatsappMessage:`سلام به کالکشن پارچه های شما علاقمندم.لطفا کانالوگ و اطلاعات بیشتر را برای من ارسال کنید`},about:{hero:{title:`درباره K.B.N`,description:`K.B.N مجموعه‌ای از پارچه‌های مبلی ظریف و باکیفیت را ارائه می‌دهد که با هدف ایجاد زیبایی، راحتی و ظرافت در فضاهای داخلی طراحی شده‌اند.`},story:{title:`داستان ما`,description:`ما مجموعه‌هایی از پارچه‌های مبلی را ارائه می‌کنیم که ترکیبی از طراحی ظریف، کیفیت و سبک ماندگار هستند. هدف ما ایجاد راهکارهای پارچه‌ای زیبا برای تولیدکنندگان مبلمان و طراحان داخلی است.`},values:{title:`چرا K.B.N را انتخاب کنید`,items:{quality:{title:`مجموعه‌های باکیفیت`,description:`انتخاب دقیق مجموعه‌های پارچه با تمرکز بر بافت، ظاهر زیبا و ماندگاری بالا.`},design:{title:`طراحی‌های ظریف`,description:`طراحی‌های مدرن و زیبا که با سبک‌های مختلف دکوراسیون داخلی هماهنگ می‌شوند.`},support:{title:`پشتیبانی مستقیم`,description:`ارتباط مستقیم با تیم ما برای دریافت کاتالوگ، اطلاعات و راهنمایی درباره مجموعه‌ها.`}}},contact:{title:`به مجموعه‌های ما علاقه‌مندید؟`,description:`برای دریافت اطلاعات بیشتر و درخواست کاتالوگ با ما در ارتباط باشید.`}},contactPage:{hero:{subtitle:`تماس با ما`,title:`بیایید با هم همکاری کنیم`,description:`برای دریافت کاتالوگ، مشاوره و خرید عمده پارچه‌های مبلی با K.B.N در ارتباط باشید.`},info:{title:`اطلاعات تماس`,items:{address:{label:`آدرس`,value:`تهران، ایران`},phone:{label:`تلفن`,value:`02166144067`},whatsapp:{label:`واتساپ`,value:`09122711834`},email:{label:`ایمیل`,value:`info@kbnfabric.com`}}},commitment:{title:`تعهد ما`,description:`تیم K.B.N همواره تلاش می‌کند تجربه‌ای مطمئن، حرفه‌ای و رضایت‌بخش را برای مشتریان خود فراهم کند.`,items:{quality:`تضمین کیفیت پارچه‌ها`,consultation:`مشاوره صادقانه پیش از خرید`,support:`پشتیبانی واقعی، همیشه در دسترس`},footer:`ما فقط یک فروشگاه نیستیم؛ شریک انتخاب‌های هوشمندانه شما برای زیباتر شدن خانه‌ها و فضاهای کاری‌تان هستیم.`},cta:{subtitle:`تعهد ما`,title:`دریافت کاتالوگ پارچه‌ها`,description:`جدیدترین کالکشن پارچه‌های مبلی را از طریق واتساپ دریافت کنید.`,button:`دریافت کاتالوگ`}},scrollToTop:{label:`بازگشت به بالا`},notFound:{title:`صفحه پیدا نشد`,description:`متأسفانه صفحه‌ای که به دنبال آن هستید وجود ندارد یا منتقل شده است.`,button:`بازگشت به خانه`},seo:{home:{title:`K.B.N | پارچه مبلی باکیفیت`,description:`K.B.N ارائه‌دهنده پارچه‌های مبلی باکیفیت برای فضاهای مدرن با تمرکز بر زیبایی، دوام و راحتی.`},collections:{title:`مجموعه پارچه‌های مبلی | K.B.N`,description:`مجموعه پارچه‌های مبلی K.B.N را در طرح‌ها، رنگ‌ها و بافت‌های متنوع مشاهده کنید.`},about:{title:`درباره K.B.N | پارچه مبلی`,description:`با K.B.N و تعهد ما به ارائه پارچه‌های مبلی باکیفیت برای فضاهای مدرن بیشتر آشنا شوید.`},contact:{title:`تماس با K.B.N | پارچه مبلی`,description:`برای خرید عمده پارچه‌های مبلی، دریافت کاتالوگ و مشاوره با K.B.N در ارتباط باشید.`},notFound:{title:`صفحه پیدا نشد | K.B.N`,description:`صفحه مورد نظر شما پیدا نشد. برای ادامه به صفحه اصلی K.B.N بازگردید.`}},fabricGallery:{view:`مشاهده`}};function sm(){let{language:e,toggleLanguage:t}=Q(),{toggleMenu:n}=am(),r=e===`fa`?$:om,i=e===`fa`,a=[{name:r.navbar.home,path:`/`},{name:r.navbar.collections,path:`/collections`},{name:r.navbar.about,path:`/about`},{name:r.navbar.contact,path:`/contact`}];return(0,k.jsx)(`nav`,{className:`w-full border-b border-gray-200 bg-white`,children:(0,k.jsx)(nm,{children:(0,k.jsxs)(`div`,{className:`relative flex h-20 items-center justify-between`,children:[(0,k.jsxs)(Un,{to:`/`,className:`
+              flex
+              flex-col
+              font-en
+
+              md:static
+
+              ${i?`absolute left-0`:`absolute right-0`}
+
+              top-1/2
+              -translate-y-1/2
+
+              md:translate-y-0
             `,children:[(0,k.jsxs)(`span`,{className:`\r
                 text-2xl\r
                 font-bold\r
@@ -86,30 +85,62 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
               items-center\r
               gap-8\r
               md:flex\r
-            `,children:i.map(e=>(0,k.jsx)(`li`,{children:(0,k.jsx)(Un,{to:e.path,className:({isActive:e})=>`
-                    text-sm
-                    transition
+            `,children:a.map(e=>(0,k.jsx)(`li`,{children:(0,k.jsx)(Un,{to:e.path,className:({isActive:e})=>`
+                      text-sm
+                      transition
 
-                    ${e?`font-semibold text-[#C08A5B]`:`text-gray-600 hover:text-[#C08A5B]`}
-
+                      ${e?`font-semibold text-[#C08A5B]`:`text-gray-600 hover:text-[#C08A5B]`}
                     `,children:e.name})},e.path))}),(0,k.jsxs)(`div`,{className:`\r
-              flex\r
+              hidden\r
               items-center\r
               gap-4\r
-            `,children:[(0,k.jsx)(`button`,{onClick:t,className:`\r
+              md:flex\r
+            `,children:[(0,k.jsx)(`button`,{type:`button`,onClick:t,className:`\r
                 text-sm\r
                 text-gray-600\r
                 transition\r
                 hover:text-[#C08A5B]\r
-              `,children:e===`en`?`FA`:`EN`}),(0,k.jsx)(`div`,{className:`\r
-    hidden\r
-    md:block\r
-  `,children:(0,k.jsx)(Z.div,{animate:{x:[0,-4,4,-3,3,0],scale:[1,1.02,1.02,1.01,1]},transition:{duration:.8,repeat:1/0,repeatDelay:2.5,ease:`easeInOut`},children:(0,k.jsx)(im,{message:e===`fa`?`سلام، درخواست دریافت کاتالوگ پارچه‌های K.B.N را دارم.`:`Hello, I would like to request the K.B.N fabric catalog.`,label:r.navbar.catalog,className:`bg-[#C08A5B]! hover:bg-[#A97449]!`})})}),(0,k.jsx)(`button`,{onClick:n,className:`\r
+              `,children:e===`en`?`FA`:`EN`}),(0,k.jsx)(Z.div,{animate:{x:[0,-4,4,-3,3,0],scale:[1,1.02,1.02,1.01,1]},transition:{duration:.8,repeat:1/0,repeatDelay:2.5,ease:`easeInOut`},children:(0,k.jsx)(im,{message:e===`fa`?`سلام، درخواست دریافت کاتالوگ پارچه‌های K.B.N را دارم.`:`Hello, I would like to request the K.B.N fabric catalog.`,label:r.navbar.catalog,className:`\r
+                  bg-[#C08A5B]!\r
+                  hover:bg-[#A97449]!\r
+                `})})]}),(0,k.jsxs)(`div`,{className:`
+              absolute
+              top-1/2
+              flex
+              -translate-y-1/2
+              items-center
+              gap-3
+              md:hidden
+
+              ${i?`right-0`:`left-0`}
+            `,children:[(0,k.jsx)(`button`,{type:`button`,onClick:t,"aria-label":i?`تغییر زبان به انگلیسی`:`Change language to Persian`,className:`\r
                 flex\r
+                h-10\r
+                min-w-10\r
+                items-center\r
+                justify-center\r
+                rounded-lg\r
+                px-2\r
+                text-sm\r
+                font-medium\r
+                text-gray-600\r
+                transition\r
+                hover:bg-gray-100\r
+                hover:text-[#C08A5B]\r
+              `,children:e===`en`?`FA`:`EN`}),(0,k.jsx)(`button`,{type:`button`,onClick:n,"aria-label":i?`باز کردن منو`:`Open menu`,className:`\r
+                flex\r
+                h-10\r
+                w-10\r
+                items-center\r
+                justify-center\r
+                rounded-lg\r
                 text-2xl\r
+                leading-none\r
                 text-gray-700\r
-                md:hidden\r
-              `,"aria-label":`Open menu`,children:`☰`})]})]})})})}function cm(){let{language:e}=Q(),t=e===`fa`?$:om,n=e===`fa`?`font-fa`:`font-en`,r=[{title:t.footer.links.home,path:`/`},{title:t.footer.links.collections,path:`/collections`},{title:t.footer.links.about,path:`/about`},{title:t.footer.links.contact,path:`/contact`}];return(0,k.jsx)(`footer`,{className:`\r
+                transition\r
+                hover:bg-gray-100\r
+                hover:text-[#C08A5B]\r
+              `,children:`☰`})]})]})})})}function cm(){let{language:e}=Q(),t=e===`fa`?$:om,n=e===`fa`?`font-fa`:`font-en`,r=[{title:t.footer.links.home,path:`/`},{title:t.footer.links.collections,path:`/collections`},{title:t.footer.links.about,path:`/about`},{title:t.footer.links.contact,path:`/contact`}];return(0,k.jsx)(`footer`,{className:`\r
         border-t\r
         border-neutral-200\r
         bg-stone-50\r
@@ -153,20 +184,19 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
             text-center\r
             text-sm\r
             text-neutral-500\r
-          `,children:(0,k.jsx)(`p`,{className:n,children:t.footer.copyright})})]})})}function lm(){let{isOpen:e,closeMenu:t}=am(),{language:n,toggleLanguage:r}=Q(),i=n===`fa`?$:om;(0,w.useEffect)(()=>(document.body.style.overflow=e?`hidden`:``,()=>{document.body.style.overflow=``}),[e]);let a=[{name:i.navbar.home,path:`/`},{name:i.navbar.collections,path:`/collections`},{name:i.navbar.about,path:`/about`},{name:i.navbar.contact,path:`/contact`}],o=n===`fa`?`سلام، درخواست دریافت کاتالوگ پارچه‌های K.B.N را دارم.`:`Hello, I would like to request the K.B.N fabric catalog.`;return(0,k.jsxs)(k.Fragment,{children:[e&&(0,k.jsx)(`div`,{onClick:t,className:`\r
+          `,children:(0,k.jsx)(`p`,{className:n,children:t.footer.copyright})})]})})}function lm(){let{isOpen:e,closeMenu:t}=am(),{language:n,toggleLanguage:r}=Q(),i=n===`fa`?$:om,a=n===`fa`;(0,w.useEffect)(()=>(document.body.style.overflow=e?`hidden`:``,()=>{document.body.style.overflow=``}),[e]);let o=[{name:i.navbar.home,path:`/`},{name:i.navbar.collections,path:`/collections`},{name:i.navbar.about,path:`/about`},{name:i.navbar.contact,path:`/contact`}],s=n===`fa`?`سلام، درخواست دریافت کاتالوگ پارچه‌های K.B.N را دارم.`:`Hello, I would like to request the K.B.N fabric catalog.`;return(0,k.jsxs)(k.Fragment,{children:[e&&(0,k.jsx)(`button`,{type:`button`,"aria-label":n===`fa`?`بستن منو`:`Close menu`,onClick:t,className:`\r
             fixed\r
             inset-0\r
             z-40\r
-            bg-black/50\r
-            backdrop-blur-sm\r
+            bg-black/65\r
+            backdrop-blur-lg\r
             md:hidden\r
-          `}),(0,k.jsxs)(`aside`,{className:`
+          `}),(0,k.jsxs)(`aside`,{dir:a?`rtl`:`ltr`,className:`
           fixed
           inset-y-0
-          right-0
           z-50
           flex
-         h-dvh
+          h-dvh
           w-72
           flex-col
           overflow-hidden
@@ -177,7 +207,15 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
           ease-out
           md:hidden
 
-          ${e?`translate-x-0`:`translate-x-full`}
+          ${a?`
+                right-0
+
+                ${e?`translate-x-0`:`translate-x-full`}
+              `:`
+                left-0
+
+                ${e?`translate-x-0`:`-translate-x-full`}
+              `}
         `,children:[(0,k.jsxs)(`div`,{className:`\r
             flex\r
             shrink-0\r
@@ -194,6 +232,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                 text-neutral-900\r
               `,children:[`K`,(0,k.jsx)(`span`,{className:`text-[#C08A5B]`,children:`.`}),`B`,(0,k.jsx)(`span`,{className:`text-[#C08A5B]`,children:`.`}),`N`]}),(0,k.jsx)(`span`,{className:`\r
                 mt-1\r
+                font-fa\r
                 text-[11px]\r
                 text-neutral-500\r
               `,children:`کریشه بافت نساج`})]}),(0,k.jsx)(`button`,{type:`button`,onClick:t,"aria-label":n===`fa`?`بستن منو`:`Close menu`,className:`\r
@@ -203,12 +242,20 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
               transition\r
               hover:bg-neutral-100\r
               hover:text-[#C08A5B]\r
-            `,children:(0,k.jsx)(wr,{size:24})})]}),(0,k.jsx)(`nav`,{className:`min-h-0 flex-1 overflow-y-auto`,children:(0,k.jsx)(`ul`,{children:a.map(e=>(0,k.jsx)(`li`,{className:`border-b border-neutral-100`,children:(0,k.jsx)(Un,{to:e.path,onClick:t,className:({isActive:e})=>`
+            `,children:(0,k.jsx)(wr,{size:24})})]}),(0,k.jsx)(`nav`,{className:`\r
+            min-h-0\r
+            flex-1\r
+            overflow-y-auto\r
+          `,children:(0,k.jsx)(`ul`,{children:o.map(e=>(0,k.jsx)(`li`,{className:`\r
+                  border-b\r
+                  border-neutral-100\r
+                `,children:(0,k.jsx)(Un,{to:e.path,onClick:t,className:({isActive:e})=>`
                       block
                       px-6
                       py-5
                       text-base
                       transition-colors
+
                       ${e?`font-semibold text-[#C08A5B]`:`text-neutral-700 hover:text-[#C08A5B]`}
                     `,children:e.name})},e.path))})}),(0,k.jsx)(`div`,{className:`\r
             shrink-0\r
@@ -231,7 +278,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                 transition\r
                 hover:border-[#C08A5B]\r
                 hover:text-[#C08A5B]\r
-              `,children:n===`en`?`FA`:`EN`}),(0,k.jsx)(im,{message:o,label:i.navbar.catalog,className:`w-full`})]})})]})]})}function um(){return(0,k.jsxs)(k.Fragment,{children:[(0,k.jsx)(sm,{}),(0,k.jsx)(lm,{}),(0,k.jsx)(`main`,{children:(0,k.jsx)(Yt,{})}),(0,k.jsx)(cm,{})]})}function dm({href:e,children:t,variant:n=`primary`,className:r=``,...i}){let a=`
+              `,children:n===`en`?`FA`:`EN`}),(0,k.jsx)(im,{message:s,label:i.navbar.catalog,className:`w-full`})]})})]})]})}function um(){return(0,k.jsxs)(k.Fragment,{children:[(0,k.jsx)(sm,{}),(0,k.jsx)(lm,{}),(0,k.jsx)(`main`,{children:(0,k.jsx)(Yt,{})}),(0,k.jsx)(cm,{})]})}function dm({href:e,children:t,variant:n=`primary`,className:r=``,...i}){let a=`
     inline-flex
     items-center
     justify-center
