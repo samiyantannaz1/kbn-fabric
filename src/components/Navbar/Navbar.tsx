@@ -232,7 +232,7 @@ function Navbar() {
       : "Hello, I would like to request the K.B.N fabric catalog."
   }
   label={t.navbar.catalog}
-  className="!bg-[#C08A5B] hover:!bg-[#A97449]"
+  className="bg-[#C08A5B]! hover:bg-[#A97449]!"
 />
   </motion.div>
 </div>

@@ -117,7 +117,7 @@ function NotFound() {
             className="
               mx-auto
               mb-8
-              h-[2px]
+              h-0.5
               w-20
               bg-[#C08A5B]
             "

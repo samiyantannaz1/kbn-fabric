@@ -66,7 +66,7 @@ function AboutHero() {
         className="
           absolute
           inset-0
-          bg-gradient-to-b
+          bg-linear-to-b
           from-black/60
           via-black/40
           to-black/70
@@ -108,7 +108,7 @@ function AboutHero() {
           className="
             mx-auto
             mb-8
-            h-[2px]
+            h-0.5
             w-20
             bg-[#C08A5B]
           "

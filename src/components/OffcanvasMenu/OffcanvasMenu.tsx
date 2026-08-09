@@ -1,7 +1,4 @@
 
-
-
-
 import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { X } from "lucide-react";
@@ -78,7 +75,7 @@ function OffcanvasMenu() {
           right-0
           z-50
           flex
-          h-[100dvh]
+         h-dvh
           w-72
           flex-col
           overflow-hidden
