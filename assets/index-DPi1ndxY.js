@@ -332,15 +332,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     duration-300\r
     hover:gap-3\r
     hover:text-[#A97449]\r
-  `,children:[e===`en`?`View Collection`:`مشاهده کالکشن`,(0,k.jsx)(`span`,{children:e===`en`?`→`:`←`})]})]})]},r.id))})]})})}var vm=`/kbn-fabric/assets/hero6-BcqNOMFJ.jpg`,ym={hidden:{},visible:{transition:{staggerChildren:.18}}},bm={hidden:{opacity:0,y:24},visible:{opacity:1,y:0,transition:{duration:.7,ease:`easeOut`}}},xm={hidden:{opacity:0,y:30,scale:.97},visible:{opacity:1,y:0,scale:1,transition:{duration:.9,delay:.25,ease:`easeOut`}}};function Sm(){let{language:e}=Q(),[t,n]=(0,w.useState)(!1),r=e===`fa`?$:om,i=e===`fa`?`font-fa`:`font-en`,a=e===`fa`,o=`09122711834`,s=`tel:${o}`;return(0,k.jsx)(`section`,{className:`\r
-        relative\r
-        overflow-hidden\r
-        bg-[#F5F1EA]\r
-        py-16\r
-        sm:py-20\r
-        md:py-24\r
-        lg:py-28\r
-      `,children:(0,k.jsx)(nm,{children:(0,k.jsxs)(`div`,{dir:a?`rtl`:`ltr`,className:`\r
+  `,children:[e===`en`?`View Collection`:`مشاهده کالکشن`,(0,k.jsx)(`span`,{children:e===`en`?`→`:`←`})]})]})]},r.id))})]})})}var vm=`/kbn-fabric/assets/hero6-BcqNOMFJ.jpg`,ym={hidden:{},visible:{transition:{staggerChildren:.18}}},bm={hidden:{opacity:0,y:24},visible:{opacity:1,y:0,transition:{duration:.7,ease:`easeOut`}}},xm={hidden:{opacity:0,y:30,scale:.97},visible:{opacity:1,y:0,scale:1,transition:{duration:.9,delay:.25,ease:`easeOut`}}};function Sm(){let{language:e}=Q(),[t,n]=(0,w.useState)(!1),r=e===`fa`?$:om,i=e===`fa`?`font-fa`:`font-en`,a=e===`fa`,o=`09122711834`,s=`tel:${o}`;return(0,k.jsx)(`section`,{children:(0,k.jsx)(nm,{children:(0,k.jsxs)(`div`,{dir:a?`rtl`:`ltr`,className:`\r
             grid\r
             w-full\r
             min-w-0\r
@@ -349,6 +341,8 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
             lg:grid-cols-2\r
             lg:gap-16\r
             xl:gap-20\r
+            lg:mt-10\r
+            xl:mt-10\r
           `,children:[(0,k.jsxs)(Z.div,{variants:ym,initial:`hidden`,animate:`visible`,className:`
               ${i}
               w-full
