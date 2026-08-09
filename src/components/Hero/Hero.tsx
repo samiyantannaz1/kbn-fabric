@@ -1,18 +1,239 @@
 
+// import { motion, type Variants } from "framer-motion";
 
+// import Container from "@/container/Container";
+// import heroImage from "@/assets/images/hero/hero6.jpg";
+
+// import en from "@/locales/en";
+// import fa from "@/locales/fa";
+
+// import { useLanguage } from "@/hooks/useLanguage";
+
+// const textContainer: Variants = {
+//   hidden: {},
+//   visible: {
+//     transition: {
+//       staggerChildren: 0.2,
+//     },
+//   },
+// };
+
+// const textItem: Variants = {
+//   hidden: {
+//     opacity: 0,
+//     y: 25,
+//   },
+
+//   visible: {
+//     opacity: 1,
+//     y: 0,
+//     transition: {
+//       duration: 0.7,
+//       ease: "easeOut",
+//     },
+//   },
+// };
+
+// function Hero() {
+//   const { language } = useLanguage();
+
+//   const t = language === "fa" ? fa : en;
+
+//   const fontClass = language === "fa" ? "font-fa" : "font-en";
+
+//   const isRTL = language === "fa";
+
+//   return (
+//     <section className="w-full overflow-x-hidden">
+//       <Container>
+//         <div
+//           className="
+//             grid
+//             w-full
+//             min-w-0
+//             items-center
+//             gap-10
+//             py-10
+//             sm:gap-12
+//             sm:py-14
+//             lg:grid-cols-2
+//             lg:gap-16
+//             lg:py-20
+//           "
+//         >
+//           {/* =========================
+//               TEXT
+//           ========================== */}
+
+//           <motion.div
+//             variants={textContainer}
+//             initial="hidden"
+//             animate="visible"
+//             dir={isRTL ? "rtl" : "ltr"}
+//             className={`
+//               ${fontClass}
+//               w-full
+//               min-w-0
+//               max-w-full
+//               overflow-hidden
+//             `}
+//           >
+//             {/* Subtitle */}
+
+//             <motion.p
+//               variants={textItem}
+//               className={`
+//                 ${fontClass}
+//                 mb-4
+//                 w-full
+//                 max-w-full
+//                 text-sm
+//                 text-[#C08A5B]
+//                 sm:text-base
+//                 ${
+//                   isRTL
+//                     ? "tracking-normal"
+//                     : "uppercase tracking-[3px]"
+//                 }
+//               `}
+//             >
+//               {t.hero.subtitle}
+//             </motion.p>
+
+//             {/* Title */}
+
+//             <motion.h1
+//               variants={textItem}
+//               className={`
+//                 ${fontClass}
+//                 m-0
+//                 w-full
+//                 max-w-full
+//                 overflow-wrap-anywhere
+//                 text-4xl
+//                 font-bold
+//                 leading-[1.45]
+//                 text-neutral-900
+//                 sm:text-5xl
+//                 md:text-6xl
+//               `}
+//             >
+//               {t.hero.title.line1}
+
+//               <br />
+
+//               {t.hero.title.line2}
+//             </motion.h1>
+
+//             {/* Description */}
+
+//             <motion.p
+//               variants={textItem}
+//               className={`
+//                 ${fontClass}
+//                 mt-6
+//                 w-full
+//                 max-w-xl
+//                 text-base
+//                 leading-8
+//                 text-gray-600
+//                 sm:text-lg
+//               `}
+//             >
+//               {t.hero.description}
+//             </motion.p>
+
+//             {/* Buttons */}
+
+//             <motion.div
+//               variants={textItem}
+//               className="
+//                 mt-8
+//                 flex
+//                 w-full
+//                 max-w-full
+//                 flex-wrap
+//                 gap-4
+//               "
+//             >
+//               {/* دکمه‌های اصلی Hero را بعداً اینجا قرار می‌دهیم */}
+//             </motion.div>
+//           </motion.div>
+
+//           {/* =========================
+//               IMAGE
+//           ========================== */}
+
+//           <motion.div
+//             initial={{
+//               opacity: 0,
+//               y: 30,
+//               scale: 0.97,
+//             }}
+//             animate={{
+//               opacity: 1,
+//               y: 0,
+//               scale: 1,
+//             }}
+//             transition={{
+//               duration: 0.9,
+//               delay: 0.25,
+//               ease: "easeOut",
+//             }}
+//             className="
+//               w-full
+//               min-w-0
+//               max-w-full
+//               overflow-hidden
+//               rounded-3xl
+//               h-80
+//               sm:h-100
+//               md:h-125
+//               lg:h-145
+//               xl:h-155
+//             "
+//           >
+//             <img
+//               src={heroImage}
+//               alt="Luxury upholstery fabric collection"
+//               className="
+//                 h-full
+//                 w-full
+//                 max-w-full
+//                 object-cover
+//                 transition-transform
+//                 duration-700
+//                 hover:scale-105
+//               "
+//             />
+//           </motion.div>
+//         </div>
+//       </Container>
+//     </section>
+//   );
+// }
+
+// export default Hero;
+
+
+
+
+import { NavLink } from "react-router-dom";
 import { motion, type Variants } from "framer-motion";
+
 import Container from "@/container/Container";
 import heroImage from "@/assets/images/hero/hero6.jpg";
-import Button from "../UI/Button/Button";
+
 import en from "@/locales/en";
 import fa from "@/locales/fa";
+
 import { useLanguage } from "@/hooks/useLanguage";
 
 const textContainer: Variants = {
   hidden: {},
   visible: {
     transition: {
-      staggerChildren: 0.2,
+      staggerChildren: 0.18,
     },
   },
 };
@@ -20,14 +241,34 @@ const textContainer: Variants = {
 const textItem: Variants = {
   hidden: {
     opacity: 0,
-    y: 30,
+    y: 24,
   },
+
   visible: {
     opacity: 1,
     y: 0,
     transition: {
       duration: 0.7,
-      ease: "easeOut" as const,
+      ease: "easeOut",
+    },
+  },
+};
+
+const imageAnimation: Variants = {
+  hidden: {
+    opacity: 0,
+    y: 30,
+    scale: 0.97,
+  },
+
+  visible: {
+    opacity: 1,
+    y: 0,
+    scale: 1,
+    transition: {
+      duration: 0.9,
+      delay: 0.25,
+      ease: "easeOut",
     },
   },
 };
@@ -37,125 +278,405 @@ function Hero() {
 
   const t = language === "fa" ? fa : en;
 
-  const fontClass =
-    language === "fa" ? "font-fa" : "font-en";
+  const fontClass = language === "fa" ? "font-fa" : "font-en";
 
+  const isRTL = language === "fa";
 
   return (
-    <section className="relative min-h-175 overflow-hidden bg-stone-50">
-
+    <section
+      className="
+        relative
+        overflow-hidden
+        bg-[#F5F1EA]
+        py-16
+        sm:py-20
+        md:py-24
+        lg:py-28
+      "
+    >
       <Container>
+    <div
+  dir={isRTL ? "rtl" : "ltr"}
+  className="
+    grid
+    w-full
+    min-w-0
+    items-center
+    gap-12
+    lg:grid-cols-2
+    lg:gap-16
+    xl:gap-20
+  "
+>
+          {/* =========================
+              TEXT CONTENT
+          ========================== */}
 
-        <div
-          className="
-            grid
-            min-h-175
-            items-center
-            gap-6
-            md:grid-cols-[0.75fr_1.25fr]
-          "
-        >
-
-
-          {/* Text */}
           <motion.div
             variants={textContainer}
             initial="hidden"
             animate="visible"
+          className={`
+  ${fontClass}
+  w-full
+  min-w-0
+  max-w-full
+  overflow-hidden
+  lg:max-w-2xl
+`}
           >
+            {/* Subtitle */}
 
-            <motion.p
+            <motion.div
               variants={textItem}
-              className={`${fontClass} mb-4 text-sm uppercase tracking-[4px] text-yellow-700`}
+              className="
+                mb-5
+                flex
+                items-center
+                gap-3
+              "
             >
-              {t.hero.subtitle}
-            </motion.p>
+              <span
+                className="
+                  h-px
+                  w-10
+                  bg-[#C08A5B]
+                  sm:w-14
+                "
+              />
 
+              <p
+                className={`
+                  ${fontClass}
+                  m-0
+                  text-sm
+                  font-medium
+                  text-[#C08A5B]
+                  sm:text-base
+                  ${
+                    isRTL
+                      ? "tracking-normal"
+                      : "uppercase tracking-[3px]"
+                  }
+                `}
+              >
+                {t.hero.subtitle}
+              </p>
+            </motion.div>
+
+            {/* Title */}
 
             <motion.h1
               variants={textItem}
-              className={`${fontClass} text-5xl font-bold leading-tight text-neutral-900 md:text-6xl`}
+              className={`
+                ${fontClass}
+                m-0
+                max-w-2xl
+                text-4xl
+                font-bold
+                leading-[1.35]
+                text-[#1F1F1F]
+                sm:text-5xl
+                md:text-6xl
+                lg:text-[4.2rem]
+                lg:leading-[1.25]
+              `}
             >
               {t.hero.title.line1}
+
               <br />
-              {t.hero.title.line2}
+
+              <span className="text-[#C08A5B]">
+                {t.hero.title.line2}
+              </span>
             </motion.h1>
 
+            {/* Description */}
 
             <motion.p
               variants={textItem}
-              className={`${fontClass} mt-6 max-w-lg text-lg leading-8 text-gray-600`}
+              className={`
+                ${fontClass}
+                mt-6
+                max-w-xl
+                text-base
+                leading-8
+                text-[#666666]
+                sm:mt-7
+                sm:text-lg
+                sm:leading-9
+              `}
             >
               {t.hero.description}
             </motion.p>
 
+            {/* =========================
+                BUTTONS
+            ========================== */}
 
             <motion.div
               variants={textItem}
-              className="mt-8 flex gap-4"
+              className="
+                mt-8
+                flex
+                flex-wrap
+                gap-4
+                sm:mt-10
+              "
             >
+              {/* View Collections */}
 
+              <NavLink
+                to="/collections"
+                className="
+                  group
+                  inline-flex
+                  min-h-13
+                  items-center
+                  justify-center
+                  rounded-xl
+                  bg-[#1F1F1F]
+                  px-7
+                  py-3.5
+                  text-sm
+                  font-semibold
+                  text-white
+                  shadow-md
+                  transition-all
+                  duration-300
+                  hover:-translate-y-1
+                  hover:bg-[#C08A5B]
+                  hover:shadow-xl
+                  sm:px-8
+                  sm:text-base
+                "
+              >
+                <span>
+                {t.hero.explore}
+                </span>
 
-<Button href="/collections">
-  {t.hero.explore}
-</Button>
+                <span
+                  className={`
+                    ${isRTL ? "mr-3" : "ml-3"}
+                    transition-transform
+                    duration-300
+                    group-hover:translate-x-1
+                    ${
+                      isRTL
+                        ? "group-hover:-translate-x-1"
+                        : ""
+                    }
+                  `}
+                >
+                  {isRTL ? "←" : "→"}
+                </span>
+              </NavLink>
 
+              {/* Contact Us */}
 
-<Button href="/contact" variant="secondary">
-  {t.hero.contact}
-</Button>
-
+              <NavLink
+                to="/contact"
+                className="
+                  inline-flex
+                  min-h-13
+                  items-center
+                  justify-center
+                  rounded-xl
+                  border
+                  border-[#C08A5B]
+                  bg-transparent
+                  px-7
+                  py-3.5
+                  text-sm
+                  font-semibold
+                  text-[#C08A5B]
+                  transition-all
+                  duration-300
+                  hover:-translate-y-1
+                  hover:bg-[#C08A5B]
+                  hover:text-white
+                  hover:shadow-lg
+                  sm:px-8
+                  sm:text-base
+                "
+              >
+            {t.hero.contact}
+              </NavLink>
             </motion.div>
 
+            {/* Small Brand Detail */}
+
+            <motion.div
+              variants={textItem}
+              className="
+                mt-10
+                flex
+                items-center
+                gap-4
+              "
+            >
+              <div
+                className="
+                  h-px
+                  w-12
+                  bg-[#D8CFC3]
+                "
+              />
+
+              <span
+                className="
+                  text-xs
+                  font-medium
+                  uppercase
+                  tracking-[2px]
+                  text-[#999999]
+                "
+              >
+                K.B.N
+              </span>
+
+              <div
+                className="
+                  h-px
+                  w-12
+                  bg-[#D8CFC3]
+                "
+              />
+            </motion.div>
           </motion.div>
 
+          {/* =========================
+              HERO IMAGE
+          ========================== */}
 
-
-          {/* Image */}
           <motion.div
-            initial={{
-              opacity: 0,
-              x: 80,
-              scale: 0.95,
-            }}
-            animate={{
-              opacity: 1,
-              x: 0,
-              scale: 1,
-            }}
-            transition={{
-              duration: 1,
-              delay: 0.4,
-              ease: "easeOut" as const,
-            }}
+            variants={imageAnimation}
+            initial="hidden"
+            animate="visible"
             className="
-              h-125
-              overflow-hidden
-              rounded-3xl
-              lg:h-155
+              relative
+              w-full
+              min-w-0
             "
           >
+            {/* Decorative Border */}
 
-            <img
-              src={heroImage}
-              alt="Luxury upholstery fabric collection"
+            <div
               className="
-                h-full
-                w-full
-                object-cover
-                transition
-                duration-700
-                hover:scale-105
+                absolute
+                -bottom-3
+                -left-3
+                -right-3
+                -top-3
+                rounded-4xl
+                border
+                border-[#C08A5B]/20
               "
             />
 
+            {/* Image */}
+
+            <div
+              className="
+                relative
+                h-80
+                overflow-hidden
+                rounded-[1.75rem]
+                sm:h-100
+                md:h-120
+                lg:h-140
+                xl:h-155
+              "
+            >
+              <img
+                src={heroImage}
+                alt="Luxury upholstery fabric collection"
+                className="
+                  h-full
+                  w-full
+                  object-cover
+                  transition-transform
+                  duration-1000
+                  ease-out
+                  hover:scale-105
+                "
+              />
+
+              {/* Image Overlay */}
+
+              <div
+                className="
+                  pointer-events-none
+                  absolute
+                  inset-0
+                  bg-gradient-to-t
+                  from-black/20
+                  via-transparent
+                  to-transparent
+                "
+              />
+            </div>
+
+            {/* Floating Brand Badge */}
+
+            <motion.div
+              initial={{
+                opacity: 0,
+                y: 15,
+              }}
+              animate={{
+                opacity: 1,
+                y: 0,
+              }}
+              transition={{
+                duration: 0.7,
+                delay: 0.9,
+              }}
+              className={`
+                ${fontClass}
+                absolute
+                bottom-5
+                ${
+                  isRTL
+                    ? "left-5"
+                    : "right-5"
+                }
+                rounded-2xl
+                border
+                border-white/30
+                bg-white/90
+                px-5
+                py-3
+                shadow-lg
+                backdrop-blur-md
+              `}
+            >
+              <p
+                className="
+                  m-0
+                  text-xs
+                  font-semibold
+                  tracking-[2px]
+                  text-[#1F1F1F]
+                "
+              >
+                K.B.N
+              </p>
+
+              <span
+                className="
+                  mt-1
+                  block
+                  text-[10px]
+                  text-[#888888]
+                "
+              >
+                Premium Fabrics
+              </span>
+            </motion.div>
           </motion.div>
-
-
         </div>
-
       </Container>
-
     </section>
   );
 }

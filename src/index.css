@@ -30,42 +30,36 @@
   font-weight: 700;
 }
 
-
 :root {
-
   /* Brand Colors */
- 
-  --primary: #1F1F1F;     /* ذغالی */
-  --gold: #B08A4A;        /* طلایی مات برای تاکید */
-  --cream: #F5F1EA;       /* کرم گرم */
-  --white: #FFFFFF;
+  --primary: #1f1f1f;
+  --gold: #b08a4a;
+  --cream: #f5f1ea;
+  --white: #ffffff;
   --gray: #777777;
-  --border: #E6E1DA;
+  --border: #e6e1da;
 
   /* Fonts */
   --font-fa: "Vazirmatn", sans-serif;
   --font-en: "Inter", sans-serif;
-
 
   /* Radius */
   --radius-button: 12px;
   --radius-card: 20px;
   --radius-image: 24px;
 
-
   /* Shadow */
-  --shadow-card: 0 10px 40px rgba(0,0,0,.08);
-
+  --shadow-card: 0 10px 40px rgba(0, 0, 0, 0.08);
 
   /* Container */
   --container-width: 1280px;
 }
 
-
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
-
 
 body {
   margin: 0;
@@ -73,7 +67,6 @@ body {
   color: var(--primary);
   background: var(--white);
 }
-
 
 .en {
   font-family: var(--font-en);

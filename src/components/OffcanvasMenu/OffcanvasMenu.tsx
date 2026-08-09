@@ -1,6 +1,7 @@
 
 
 
+
 import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { X } from "lucide-react";
@@ -14,22 +15,14 @@ import en from "@/locales/en";
 import fa from "@/locales/fa";
 
 function OffcanvasMenu() {
-  const {
-    isOpen,
-    closeMenu,
-  } = useOffcanvas();
+  const { isOpen, closeMenu } = useOffcanvas();
 
-  const {
-    language,
-    toggleLanguage,
-  } = useLanguage();
+  const { language, toggleLanguage } = useLanguage();
 
   const t = language === "fa" ? fa : en;
 
   useEffect(() => {
-    document.body.style.overflow = isOpen
-      ? "hidden"
-      : "";
+    document.body.style.overflow = isOpen ? "hidden" : "";
 
     return () => {
       document.body.style.overflow = "";
@@ -63,7 +56,6 @@ function OffcanvasMenu() {
   return (
     <>
       {/* Overlay */}
-
       {isOpen && (
         <div
           onClick={closeMenu}
@@ -73,28 +65,26 @@ function OffcanvasMenu() {
             z-40
             bg-black/50
             backdrop-blur-sm
-            transition-opacity
-            duration-300
             md:hidden
           "
         />
       )}
 
-      {/* Menu */}
-
+      {/* Offcanvas */}
       <aside
         className={`
           fixed
-          top-0
+          inset-y-0
           right-0
           z-50
           flex
-          h-screen
+          h-[100dvh]
           w-72
           flex-col
+          overflow-hidden
           bg-white
           shadow-2xl
-          transition-all
+          transition-transform
           duration-300
           ease-out
           md:hidden
@@ -107,10 +97,10 @@ function OffcanvasMenu() {
         `}
       >
         {/* Header */}
-
         <div
           className="
             flex
+            shrink-0
             items-center
             justify-between
             border-b
@@ -151,12 +141,20 @@ function OffcanvasMenu() {
           </div>
 
           <button
+            type="button"
             onClick={closeMenu}
+            aria-label={
+              language === "fa"
+                ? "بستن منو"
+                : "Close menu"
+            }
             className="
               rounded-lg
               p-2
+              text-neutral-700
               transition
               hover:bg-neutral-100
+              hover:text-[#C08A5B]
             "
           >
             <X size={24} />
@@ -164,72 +162,80 @@ function OffcanvasMenu() {
         </div>
 
         {/* Links */}
-
-        <ul className="flex-1">
-          {links.map((link) => (
-            <li
-              key={link.path}
-              className="border-b border-neutral-100"
-            >
-              <NavLink
-                to={link.path}
-                onClick={closeMenu}
-                className={({ isActive }) =>
-                  `
-                  block
-                  px-6
-                  py-5
-                  transition
-
-                  ${
-                    isActive
-                      ? "font-semibold text-[#C08A5B]"
-                      : "text-neutral-700 hover:text-[#C08A5B]"
-                  }
-                `
-                }
+        <nav className="min-h-0 flex-1 overflow-y-auto">
+          <ul>
+            {links.map((link) => (
+              <li
+                key={link.path}
+                className="border-b border-neutral-100"
               >
-                {link.name}
-              </NavLink>
-            </li>
-          ))}
-        </ul>
+                <NavLink
+                  to={link.path}
+                  onClick={closeMenu}
+                  className={({ isActive }) =>
+                    `
+                      block
+                      px-6
+                      py-5
+                      text-base
+                      transition-colors
+                      ${
+                        isActive
+                          ? "font-semibold text-[#C08A5B]"
+                          : "text-neutral-700 hover:text-[#C08A5B]"
+                      }
+                    `
+                  }
+                >
+                  {link.name}
+                </NavLink>
+              </li>
+            ))}
+          </ul>
+        </nav>
 
         {/* Actions */}
+        <div
+          className="
+            shrink-0
+            border-t
+            border-neutral-200
+            bg-white
+            px-6
+            pt-4
+            pb-[calc(1rem+env(safe-area-inset-bottom))]
+          "
+        >
+          <div className="flex flex-col gap-3">
+            {/* Language */}
+            <button
+              type="button"
+              onClick={toggleLanguage}
+              className="
+                w-full
+                rounded-xl
+                border
+                border-neutral-300
+                px-4
+                py-3
+                text-sm
+                font-medium
+                text-neutral-700
+                transition
+                hover:border-[#C08A5B]
+                hover:text-[#C08A5B]
+              "
+            >
+              {language === "en" ? "FA" : "EN"}
+            </button>
 
-     <div
-  className="
-    flex
-    flex-col
-    gap-4
-    border-t
-    border-neutral-200
-    p-6
-  "
->
-          <button
-            onClick={toggleLanguage}
-            className="
-              w-full
-              rounded-xl
-              border
-              border-neutral-300
-              px-4
-              py-3
-              transition
-              hover:border-[#C08A5B]
-              hover:text-[#C08A5B]
-            "
-          >
-            {language === "en"
-              ? "FA"
-              : "EN"}
-          </button>
-
-          <WhatsAppButton
-            message={whatsappMessage}
-            label={t.navbar.catalog}
-          />
+            {/* WhatsApp */}
+            <WhatsAppButton
+              message={whatsappMessage}
+              label={t.navbar.catalog}
+              className="w-full"
+            />
+          </div>
         </div>
       </aside>
     </>
@@ -237,3 +243,4 @@ function OffcanvasMenu() {
 }
 
 export default OffcanvasMenu;
+
