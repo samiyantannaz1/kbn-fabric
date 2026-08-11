@@ -120,14 +120,7 @@ function ContactCTA() {
       }}
     />
 
-    {/* <WhatsAppButton
-      message={
-        language === "fa"
-          ? "سلام، درخواست دریافت کاتالوگ پارچه‌های K.B.N را دارم."
-          : "Hello, I would like to request the K.B.N fabric catalog."
-      }
-      label={t.contactPage.cta.button}
-    /> */}
+ 
   
 <WhatsAppButton
   message={

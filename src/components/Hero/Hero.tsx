@@ -69,7 +69,7 @@ function Hero() {
 
   const isRTL = language === "fa";
 
-  const phoneNumber = "09122711834";
+  const phoneNumber = "09120949168";
   const phoneHref = `tel:${phoneNumber}`;
 
   return (

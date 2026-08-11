@@ -277,7 +277,7 @@ contactPage: {
 
     whatsapp: {
       label: "WhatsApp",
-      value: "09122711834",
+      value: "09120949168",
     },
 
     email: {
