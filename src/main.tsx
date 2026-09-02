@@ -33,7 +33,8 @@ import App from "./App";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter  basename="/kbn-fabric">
+    {/* <BrowserRouter  basename="/kbn-fabric"> */}
+    <BrowserRouter >
      <ScrollToTop />
       <LanguageProvider>
         <OffcanvasProvider>
