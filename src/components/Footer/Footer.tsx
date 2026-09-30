@@ -177,19 +177,13 @@ function Footer() {
 
 
               <a
-                href="tel:09122711834"
-                className="block hover:text-[#C08A5B]"
-              >
-                📞 09120949168
-              </a>
+  href="tel:09370777113"
+  className="block hover:text-[#C08A5B]"
+>
+  📞 09370777113
+</a>
 
-
-              {/* <a
-                href="mailto:info@kbnfabric.com"
-                className="block hover:text-[#C08A5B]"
-              >
-                ✉ info@kbnfabric.com
-              </a> */}
+          
 
 
             </div>
