@@ -1,5 +1,5 @@
 const contact = {
-  whatsapp: "989120949168",
+  whatsapp: "989122711834",
 };
 
 export default contact;
